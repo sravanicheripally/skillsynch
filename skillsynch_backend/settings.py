@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'skillsynch_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database-1',
+        'NAME': 'trysol_db',
         'USER': 'postgres',
-        'PASSWORD': 'postgres123456',
-        'HOST': 'database-1.cd842me2ka2e.ap-south-1.rds.amazonaws.com',
+        'PASSWORD': 'Dbpost123456',
+        'HOST': 'database-2.cd842me2ka2e.ap-south-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
