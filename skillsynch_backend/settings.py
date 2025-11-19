@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'skillsynch_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'database-1',
         'USER': 'postgres',
         'PASSWORD': 'postgres123456',
         'HOST': 'database-1.cd842me2ka2e.ap-south-1.rds.amazonaws.com',
